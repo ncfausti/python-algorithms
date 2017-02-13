@@ -51,4 +51,6 @@ d.next = e
 e.next = f
 f.next = g
 
-print(nth_to_last(a, 0))
+assert(nth_to_last(a, 0) == "g")
+assert(nth_to_last(a, 1) == "f")
+assert(nth_to_last(a, 2) == "e")
