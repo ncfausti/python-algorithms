@@ -20,3 +20,13 @@ def max_difference(ls):
 assert(max_difference([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) == 9)
 assert(max_difference([5, 2, 5, 3, 4, 5, 6, 7, 7, 8, 9]) == 7)
 assert(max_difference([0, 2, 3, 4, 5, 6, 7, 800, 9, 10]) == 800)
+
+
+def max_sale(ls):
+    """
+    Return the indices that provide the greatest sale price.
+
+    For index i, return the max of index (i - j), where j is an index
+    of a number that came before i.
+    """
+    pass
