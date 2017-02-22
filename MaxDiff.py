@@ -23,9 +23,7 @@ assert(max_difference([0, 2, 3, 4, 5, 6, 7, 800, 9, 10]) == 800)
 
 
 def max_sale(ls):
-    """
-    Return the indices that provide the greatest sale price.
-    """
+    """Return the indices that provide the greatest sale price."""
     min_price = ls[0]
     max_sale = ls[1] - ls[0]
 
